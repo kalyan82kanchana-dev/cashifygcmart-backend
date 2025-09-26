@@ -68,7 +68,7 @@ class GiftCardSubmission(BaseModel):
     zelleDetails: Optional[str] = ""
     cashAppTag: Optional[str] = ""
     btcAddress: Optional[str] = ""
-    chimeDetails: Optional[str] = 
+    chimeDetails: Optional[str] = ""
   ""# Email Template Functions
 def generate_confirmation_email_html(customer_name, reference_number):
     return f"""
